@@ -2,7 +2,7 @@
 
 
 ```
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Tmddms0722@';
 
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost'; 
 
