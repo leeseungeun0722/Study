@@ -27,4 +27,7 @@ MSI (c) (8C:B0) [17:07:01:165]: Unexpected or missing value (name: 'PackageName'
 
 ```
 in key 뒷 구문을 복사하고 레지스트리 편집기를 열어 붙여넣어준다. 그럼 SourceList 폴더를 통제로 삭제해주면 된다. 그럼 하위요소들까지 사라질것. 그상태로 다시 workbench를 열면 mysql이 실해잉 될 것이다 **앞으로 레지스트리 편집기 파일 삭제는 조심히 하자** 😏
+
 <br/>
+
+[참고자료](https://m.blog.naver.com/dhalswjd30/222101255535)
