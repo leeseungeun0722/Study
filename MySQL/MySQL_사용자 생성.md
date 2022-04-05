@@ -2,10 +2,11 @@
 
 
 ```
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Tmddms0722@';
 
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost'; 
 
+ flush privileges;
 
 create user 'root'@'localhost' identified by 'pass'; 
 ```
@@ -14,4 +15,6 @@ create user 'root'@'localhost' identified by 'pass';
 
  SHOW GLOBAL VARIABLES LIKE 'PORT';
 
- flush privileges
+ flush privileges;
+
+ select user,authentication_string, plugin,host from mysql.user;

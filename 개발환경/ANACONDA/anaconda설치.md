@@ -1,10 +1,11 @@
- ## **Anaconda WsL2 ubuntu 20,04에 설치해보기**
+ # **Anaconda WsL2 ubuntu 20,04에 설치해보기**
+
 개발환경 구축을 위해 anaconda  wsl에 설치하기😉
 
 <br/>
 
- ### **Anaconda 설치**
-<br/>
+ ## **Anaconda 설치**
+
 
 [아나콘다 다운로드](https://www.anaconda.com/products/individual)
 
